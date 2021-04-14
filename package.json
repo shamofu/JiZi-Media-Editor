@@ -1,10 +1,9 @@
 {
-  "name": "electron-react-vite-boilerplate",
-  "version": "0.1.1",
-  "repository": "https://github.com/shamofu/electron-react-vite-boilerplate.git",
+  "name": "jizi-media-editor",
+  "version": "0.0.0",
+  "repository": "https://github.com/shamofu/jizi-media-editor.git",
   "author": "shamofu",
   "license": "MIT",
-  "private": "true",
   "main": "app/main/main.js",
   "scripts": {
     "start": "run-p -r renderer:watch main:start",
@@ -29,7 +28,6 @@
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "@vitejs/plugin-react-refresh": "^1.3.2",
-    "babel-jest": "^26.6.3",
     "electron": "^12.0.2",
     "electron-builder": "^22.10.5",
     "jest": "^26.6.3",
@@ -44,8 +42,8 @@
     "vite": "^2.1.5"
   },
   "build": {
-    "productName": "ElectronReactVite",
-    "appId": "org.shamofu.ElectronReactVite",
+    "productName": "JiZiMediaEditor",
+    "appId": "org.shamofu.JiZiMediaEditor",
     "files": [
       "app/**",
       "!app/main/tests/**",

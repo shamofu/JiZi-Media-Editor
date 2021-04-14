@@ -8,7 +8,7 @@ const styles: React.CSSProperties = {
 
 export default () => (
   <div style={styles}>
-    <h1>Electron + React + Vite</h1>
+    <h1>JiZi Media Editor</h1>
     <h3><Link to='/'>Back</Link></h3>
   </div>
 )

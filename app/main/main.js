@@ -3,7 +3,6 @@ const isDev = require('electron-is-dev')
 const { resolve } = require('app-root-path')
 const { format } = require('url')
 
-
 function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,

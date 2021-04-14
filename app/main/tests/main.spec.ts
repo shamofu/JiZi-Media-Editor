@@ -14,12 +14,12 @@ beforeEach(async () => {
 })
 
 test('application title', async () => {
-  expect(await app.client.getTitle()).toBe('Electron-React-Vite-Boilerplate')
+  expect(await app.client.getTitle()).toBe('JiZi Media Editor')
 })
 
 test('go to Start', async () => {
   const foo = await app.client.$('a#start')
   await foo.click()
   const bar = await app.client.$('h1')
-  expect(await bar.getText()).toBe('Electron + React + Vite')
+  expect(await bar.getText()).toBe('JiZi Media Editor')
 })
