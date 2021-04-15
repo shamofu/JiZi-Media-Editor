@@ -40,6 +40,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            release/ElectronReactVite-win.zip
+            release/JiZiMediaEditor-win.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
